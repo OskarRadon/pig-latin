@@ -1,37 +1,30 @@
-# _{Application Name}_
+# Pig Latin App
 
-#### _{Brief description of application}, {Date of current version}_
+#### Epicodus week 3 project, 1/20/16
 
-#### By _**{List of contributors}**_
+#### By Chris Young and Oskar Radon
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+Write a Pig Latin translator or should we say an "igPay atinLay anslatorTray".
 
-## Setup/Installation Requirements
+Here are the rules of Pig Latin that you should use:
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+For words that start with a vowel, add "ay" to the end.
+For words that start with one or more consonants, move all of the first consecutive consonants to the end and add "ay". (If the first consonants include "qu", move the "u" along with the "q". Don't forget about words like "squeal" where the "qu" doesn't come first!)
+For words that start with "y", treat the "y" as a consonant.
+Remember to break this down into small tests and do testing and coding one behavior at a time. When you get to consonants, don't try to solve it all at once. Instead, start with an example of a word that only has one consonant; then a word with two consonants; then a word with three; and then tackle "qu" and "y".
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+The .slice() method for strings may come in handy.
 
-## Known Bugs
-
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
-
-## Support and contact details
-
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+Once you have it working for one word, get it working for sentences.
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+HTML, JS, jQuery, CSS, Bootstrap, Mocha and Chai.
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+MIT
 
-Copyright (c) 2015 **_{List of contributors or company name}_**
+Copyright (c) 2016 CY and OR
