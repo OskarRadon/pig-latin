@@ -18,4 +18,8 @@ describe("pigLatin", function() {
   it ("takes first two letters when they are 'qu', moves them to the end and add 'ay'", function(){
     expect(pigLatin("question")).to.equal("estionquay");
   });
+
+  it ("takes first three letters if first is consonant, second is 'qu', moves them to the end and add 'ay'", function(){
+      expect(pigLatin("squeal")).to.equal("ealsquay");
+  });
 });
