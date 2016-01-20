@@ -1,5 +1,5 @@
 var pigLatin = function(input) {
-  if (input[0] === 'a' || input[0] === 'e' || input[0] === 'i' || input[0] === 'o' || input[0] === 'u' || input[0] === 'y') {
+  if (input[0] === 'a' || input[0] === 'e' || input[0] === 'i' || input[0] === 'o' || input[0] === 'u') {
     return input + "ay"; //if input starts with vowel
 
   } else if (input[0] === 'q' && input[1] === 'u') {
