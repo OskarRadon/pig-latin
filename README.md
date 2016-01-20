@@ -8,16 +8,21 @@
 
 Write a Pig Latin translator or should we say an "igPay atinLay anslatorTray".
 
-Here are the rules of Pig Latin that you should use:
+Here are the rules of Pig Latin:
 
-For words that start with a vowel, add "ay" to the end.
-For words that start with one or more consonants, move all of the first consecutive consonants to the end and add "ay". (If the first consonants include "qu", move the "u" along with the "q". Don't forget about words like "squeal" where the "qu" doesn't come first!)
-For words that start with "y", treat the "y" as a consonant.
-Remember to break this down into small tests and do testing and coding one behavior at a time. When you get to consonants, don't try to solve it all at once. Instead, start with an example of a word that only has one consonant; then a word with two consonants; then a word with three; and then tackle "qu" and "y".
+* For words that start with a vowel, add "ay" to the end.
+* For words that start with one or more consonants, move all of the first consecutive consonants to the end and add "ay". (If the first consonants include "qu", move the "u" along with the "q". Don't forget about words like "squeal" where the "qu" doesn't come first!)
+* For words that start with "y", treat the "y" as a consonant.
 
-The .slice() method for strings may come in handy.
-
-Once you have it working for one word, get it working for sentences.
+## Specs
+* will add ay to the end of words that start with a vowel
+* takes a single consonant at the beginning of a word, moves it to the end and adds 'ay'
+* takes two consecutive consonants at the beginning of a word, moves it to the end and adds 'ay'
+* takes three consecutive consonants at the beginning of a word, moves it to the end and adds 'ay'
+* takes first two letters when they are 'qu', moves them to the end and add 'ay'
+* takes first three letters if first is consonant, second is 'qu', moves them to the end and add 'ay'
+* takes words that start with the letter 'y' and treats that letter 'y' as a consonant
+* takes words with 'y' as the second letter and treats that letter 'y' as a vowel
 
 ## Technologies Used
 
