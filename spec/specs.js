@@ -11,5 +11,7 @@ describe("pigLatin", function() {
     expect(pigLatin("twenty")).to.equal("entytway")
   });
 
-
+  it ("takes three consecutive consonants at the begining of a word, moves it to the end and adds ay", function(){
+    expect(pigLatin("three")).to.equal("eethray")
+  });
 });
