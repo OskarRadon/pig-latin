@@ -22,4 +22,13 @@ describe("pigLatin", function() {
   it ("takes first three letters if first is consonant, second is 'qu', moves them to the end and add 'ay'", function(){
       expect(pigLatin("squeal")).to.equal("ealsquay");
   });
+
+  it ("takes words that start with the letter 'y' and treats that letter 'y' as a consonant", function(){
+      expect(pigLatin("yellow")).to.equal("ellowyay");
+  });
+
+  it ("takes words with 'y' as the second letter and treats that letter 'y' as a vowel", function(){
+      expect(pigLatin("pyro")).to.equal("yropay");
+  });
+
 });
